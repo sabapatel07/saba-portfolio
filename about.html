@@ -1,238 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>About Saba Patel | Portfolio</title>
-
-    <meta name="description"
-        content="Learn more about Saba Patel, a Computer Science Engineering student interested in web development, artificial intelligence and technology.">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Saba Patel, a Computer Science Engineering student interested in web development, software development, AI and problem solving.">
     <meta name="author" content="Saba Patel">
-
     <meta name="robots" content="index, follow">
-
+    <meta name="theme-color" content="#070b18">
+    <meta property="og:title" content="About | Saba Patel">
+    <meta property="og:description" content="Learn about Saba Patel, a Computer Science Engineering student interested in web development, software development, AI and problem solving.">
+    <meta property="og:type" content="website">
+    <title>About | Saba Patel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <a href="#main-content" class="skip-link">
-        Skip to main content
-    </a>
-
-    <header>
-
-        <nav aria-label="Main navigation">
-
-            <div class="logo">
-                <a href="index.html"
-                   aria-label="Saba Patel Home">
-                    Saba Patel
-                </a>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">
+            <a href="index.html" aria-label="Saba Patel home"><span>S</span>aba Patel</a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-button" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle theme">☾</button>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Open navigation menu">
+                <span class="menu-icon" aria-hidden="true"><span></span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+<main id="main-content">
+    <section class="section" aria-labelledby="about-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Get to know me</p>
+                <h1 class="section-title" id="about-title">About Me</h1>
+                <p class="section-text">A little about my education, interests and approach to development.</p>
             </div>
 
-            <ul>
+            <div class="about-grid">
+                <article class="about-copy">
+                    <h2>Hello! I'm <span class="orange">Saba Patel</span>.</h2>
+                    <p>
+                        I am a Computer Science Engineering student at Sanjay Ghodawat Institute,
+                        pursuing a Bachelor of Technology in Computer Science and Engineering.
+                    </p>
+                    <p>
+                        I enjoy turning ideas into responsive, user-friendly web experiences and
+                        practical software solutions. My interests include frontend development,
+                        backend development, AI-powered applications and problem solving.
+                    </p>
+                    <p>
+                        Through academic projects, hackathons, workshops and my current software
+                        development internship, I am building hands-on experience with modern
+                        development workflows and technologies.
+                    </p>
+                </article>
 
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
+                <aside class="about-side" aria-label="Quick facts">
+                    <div class="about-mini">
+                        <strong>Education</strong>
+                        <span>B.Tech — Computer Science & Engineering</span>
+                    </div>
+                    <div class="about-mini">
+                        <strong>Institute</strong>
+                        <span>Sanjay Ghodawat Institute, Atigre</span>
+                    </div>
+                    <div class="about-mini">
+                        <strong>Study period</strong>
+                        <span>2023 – 2027</span>
+                    </div>
+                    <div class="about-mini">
+                        <strong>Current focus</strong>
+                        <span>Web development, software engineering and practical projects</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
 
-                <li>
-                    <a href="about.html"
-                       aria-current="page">
-                        About
-                    </a>
-                </li>
+    <section class="section" aria-labelledby="what-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">What I enjoy</p>
+                <h2 class="section-title" id="what-title">Building with purpose.</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h2>Web Development</h2>
+                    <p>Creating responsive websites and applications with semantic HTML, modern CSS and JavaScript.</p>
+                </article>
+                <article class="card">
+                    <h2>Software Development</h2>
+                    <p>Learning structured development practices, APIs, databases, Git and collaborative workflows.</p>
+                </article>
+                <article class="card">
+                    <h2>Problem Solving</h2>
+                    <p>Enjoying technical challenges and using programming to develop practical solutions.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-                <li>
-                    <a href="projects.html">
-                        Projects
-                    </a>
-                </li>
+    <section class="section" aria-labelledby="journey-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">My journey</p>
+                <h2 class="section-title" id="journey-title">Learning through experience.</h2>
+            </div>
+            <div class="resume-grid">
+                <article class="resume-card">
+                    <h2>Education</h2>
+                    <h3>B.Tech in Computer Science Engineering</h3>
+                    <p class="resume-meta">Sanjay Ghodawat Institute · 2023 – 2027</p>
+                    <p>Building foundations across programming, databases, software development, machine learning and web technologies.</p>
+                </article>
+                <article class="resume-card">
+                    <h2>Internship</h2>
+                    <h3>Software Development Intern</h3>
+                    <p class="resume-meta">Thiranex Technologies · Aug 2026 – Present</p>
+                    <p>Gaining practical experience through technical training and project-based software development work.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-                <li>
-                    <a href="skills.html">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resume.html">
-                        Resume
-                    </a>
-                </li>
-
-                <li>
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-    <main id="main-content">
-
-        <!-- ABOUT -->
-        <section aria-labelledby="about-heading">
-
-            <p class="text-gray">
-                Get to know me
-            </p>
-
-            <h1 id="about-heading">
-                About Me
-            </h1>
-
-            <p>
-                Hello! I am Saba Patel, a Computer Science
-                Engineering student passionate about technology,
-                web development and artificial intelligence.
-            </p>
-
-            <p>
-                I enjoy building practical applications that solve
-                real-world problems and provide simple and
-                accessible user experiences.
-            </p>
-
-            <p>
-                My interests include full-stack development,
-                artificial intelligence, UI/UX design and
-                problem solving.
-            </p>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- EDUCATION -->
-        <section aria-labelledby="education-heading">
-
-            <h2 id="education-heading">
-                Education
-            </h2>
-
-            <article class="experience-card">
-
-                <h3>
-                    Bachelor of Technology -
-                    Computer Science Engineering
-                </h3>
-
-                <p>
-                    Computer Science Engineering
-                </p>
-
-                <p>
-                    Currently pursuing my B.Tech degree
-                    with a focus on software development,
-                    artificial intelligence and modern
-                    web technologies.
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- EXPERIENCE -->
-        <section aria-labelledby="experience-heading">
-
-            <h2 id="experience-heading">
-                Experience
-            </h2>
-
-            <article class="experience-card">
-
-                <h3>
-                    Web Development
-                </h3>
-
-                <p>
-                    Worked on responsive websites and
-                    web applications using HTML, CSS,
-                    JavaScript and modern development tools.
-                </p>
-
-            </article>
-
-
-            <br>
-
-
-            <article class="experience-card">
-
-                <h3>
-                    AI & Full Stack Projects
-                </h3>
-
-                <p>
-                    Developed projects combining artificial
-                    intelligence, web development and
-                    database technologies.
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- GOAL -->
-        <section aria-labelledby="goal-heading">
-
-            <h2 id="goal-heading">
-                My Goal
-            </h2>
-
-            <p>
-                My goal is to become a skilled software
-                developer who creates innovative,
-                accessible and impactful technology
-                solutions.
-            </p>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <p>
-            &copy; 2026 Saba Patel.
-            All rights reserved.
-        </p>
-
+    <section class="section" aria-labelledby="about-cta-title">
+        <div class="container">
+            <div class="cta">
+                <p class="eyebrow">Next step</p>
+                <h2 class="section-title" id="about-cta-title">Want to see what I've built?</h2>
+                <p>Explore my projects, technical skills and resume.</p>
+                <a class="button" href="projects.html">View Projects</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 Saba Patel. All rights reserved.</p>
         <nav aria-label="Footer navigation">
-
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-
-    </footer>
-
+    </div>
+</footer>
 </body>
-
 </html>

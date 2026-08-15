@@ -1,252 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>Projects | Saba Patel Portfolio</title>
-
-    <meta name="description"
-        content="Explore projects developed by Saba Patel including NeuroPain Care AI, LitAura and MatchMitra.">
-
-    <meta name="author"
-        content="Saba Patel">
-
-    <meta name="robots"
-        content="index, follow">
-
-    <link rel="stylesheet"
-        href="style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Saba Patel's software and web development projects, including NeuroPain Care AI, Smart Tourist Safety, LitAura and MatchMitra.">
+    <meta name="author" content="Saba Patel">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#070b18">
+    <meta property="og:title" content="Projects | Saba Patel">
+    <meta property="og:description" content="Explore Saba Patel's software and web development projects, including NeuroPain Care AI, Smart Tourist Safety, LitAura and MatchMitra.">
+    <meta property="og:type" content="website">
+    <title>Projects | Saba Patel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <a href="#main-content"
-       class="skip-link">
-        Skip to main content
-    </a>
-
-
-    <header>
-
-        <nav aria-label="Main navigation">
-
-            <div class="logo">
-
-                <a href="index.html"
-                   aria-label="Saba Patel Home">
-                    Saba Patel
-                </a>
-
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">
+            <a href="index.html" aria-label="Saba Patel home"><span>S</span>aba Patel</a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-button" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle theme">☾</button>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Open navigation menu">
+                <span class="menu-icon" aria-hidden="true"><span></span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+<main id="main-content">
+    <section class="section" aria-labelledby="projects-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Selected work</p>
+                <h1 class="section-title" id="projects-title">My Projects</h1>
+                <p class="section-text">Projects that helped me practice frontend, backend, databases, APIs, AI and teamwork.</p>
             </div>
-
-            <ul>
-
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-
-                <li>
-                    <a href="projects.html"
-                       aria-current="page">
-                        Projects
-                    </a>
-                </li>
-
-                <li>
-                    <a href="skills.html">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resume.html">
-                        Resume
-                    </a>
-                </li>
-
-                <li>
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-    <main id="main-content">
-
-        <section aria-labelledby="projects-heading">
-
-            <p class="text-gray">
-                My work
-            </p>
-
-            <h1 id="projects-heading">
-                My Projects
-            </h1>
-
 
             <div class="project-grid">
-
-
-                <!-- PROJECT 1 -->
-
                 <article class="project-card">
-
-                    <h2>
-                        NeuroPain Care AI
-                    </h2>
-
-                    <p>
-                        An AI-powered healthcare monitoring
-                        application designed to help users
-                        record pain patterns, emotional
-                        well-being and stress levels.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        React.js, Node.js, Express.js,
-                        MongoDB, Python
-                    </p>
-
-                    <a href="#"
-                       aria-label="View NeuroPain Care AI project">
-                        View Project
-                    </a>
-
+                    <h2>NeuroPain Care AI</h2>
+                    <p class="tech">React.js · Node.js · Express.js · MongoDB · Python</p>
+                    <p>AI-powered healthcare application for monitoring pain patterns and emotional well-being, with an interactive body map and responsive interfaces.</p>
+                    <a class="button secondary" href="contact.html?project=NeuroPain%20Care%20AI">Discuss project</a>
                 </article>
 
-
-                <!-- PROJECT 2 -->
-
                 <article class="project-card">
-
-                    <h2>
-                        LitAura
-                    </h2>
-
-                    <p>
-                        A mood-based book recommendation
-                        application created during a
-                        hackathon. The application recommends
-                        books based on the user's mood.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        HTML, CSS, JavaScript,
-                        Tailwind CSS, Sentiment.js,
-                        Google Books API
-                    </p>
-
-                    <a href="#"
-                       aria-label="View LitAura project">
-                        View Project
-                    </a>
-
+                    <h2>Smart Tourist Safety Monitoring & Incident Response</h2>
+                    <p class="tech">React.js · Node.js · Express.js · MongoDB · MySQL · Google Maps API</p>
+                    <p>AI-powered tourist safety platform featuring real-time location tracking, SOS alerts, weather updates, AI travel assistance and safe-route recommendations.</p>
+                    <a class="button secondary" href="contact.html?project=Smart%20Tourist%20Safety">Discuss project</a>
                 </article>
 
-
-                <!-- PROJECT 3 -->
-
                 <article class="project-card">
-
-                    <h2>
-                        MatchMitra
-                    </h2>
-
-                    <p>
-                        A marriage bureau platform designed
-                        to provide users with a simple way
-                        to explore and manage potential
-                        matches.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        HTML, CSS, JavaScript,
-                        Node.js and MongoDB
-                    </p>
-
-                    <a href="#"
-                       aria-label="View MatchMitra project">
-                        View Project
-                    </a>
-
+                    <h2>LitAura</h2>
+                    <p class="tech">HTML · Tailwind CSS · Bootstrap · JavaScript</p>
+                    <p>Mood-based book recommendation application developed during a hackathon, focused on an engaging and simple user experience.</p>
+                    <a class="button secondary" href="contact.html?project=LitAura">Discuss project</a>
                 </article>
 
-
-                <!-- PROJECT 4 -->
-
                 <article class="project-card">
-
-                    <h2>
-                        Portfolio Website
-                    </h2>
-
-                    <p>
-                        A responsive personal portfolio
-                        website designed using semantic HTML5,
-                        accessibility principles and
-                        SEO-friendly practices.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        HTML5, CSS3, JavaScript
-                    </p>
-
-                    <a href="index.html">
-                        View Portfolio
-                    </a>
-
+                    <h2>MatchMitra</h2>
+                    <p class="tech">Web application · GitHub project</p>
+                    <p>A marriage bureau web application concept designed to connect suitable profiles through a digital platform.</p>
+                    <a class="button secondary" href="contact.html?project=MatchMitra">Discuss project</a>
                 </article>
-
             </div>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <p>
-            &copy; 2026 Saba Patel.
-            All rights reserved.
-        </p>
-
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 Saba Patel. All rights reserved.</p>
         <nav aria-label="Footer navigation">
-
-            <a href="index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="contact.html">Contact</a>
-
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-
-    </footer>
-
+    </div>
+</footer>
 </body>
-
 </html>

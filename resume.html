@@ -1,634 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View Saba Patel's education, internship experience, projects, technical skills and professional development.">
+    <meta name="author" content="Saba Patel">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#070b18">
+    <meta property="og:title" content="Resume | Saba Patel">
+    <meta property="og:description" content="View Saba Patel's education, internship experience, projects, technical skills and professional development.">
+    <meta property="og:type" content="website">
     <title>Resume | Saba Patel</title>
-
-    <meta name="description"
-        content="View Saba Patel's resume, education, technical skills, internship experience, projects, certifications and professional development.">
-
-    <meta name="author"
-        content="Saba Patel">
-
-    <meta name="robots"
-        content="index, follow">
-
-    <link rel="stylesheet"
-        href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <!-- Skip Link -->
-    <a href="#main-content"
-       class="skip-link">
-        Skip to main content
-    </a>
-
-
-    <!-- HEADER -->
-    <header>
-
-        <nav aria-label="Main navigation">
-
-            <div class="logo">
-
-                <a href="index.html"
-                   aria-label="Saba Patel Home">
-                    Saba Patel
-                </a>
-
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">
+            <a href="index.html" aria-label="Saba Patel home"><span>S</span>aba Patel</a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html" aria-current="page">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-button" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle theme">☾</button>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Open navigation menu">
+                <span class="menu-icon" aria-hidden="true"><span></span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+<main id="main-content">
+    <section class="section" aria-labelledby="resume-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Professional profile</p>
+                <h1 class="section-title" id="resume-title">Resume</h1>
+                <p class="section-text">A concise overview of my education, experience, projects, skills and professional development.</p>
             </div>
 
-
-            <ul>
-
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a href="about.html">
-                        About
-                    </a>
-                </li>
-
-                <li>
-                    <a href="projects.html">
-                        Projects
-                    </a>
-                </li>
-
-                <li>
-                    <a href="skills.html">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resume.html"
-                       aria-current="page">
-                        Resume
-                    </a>
-                </li>
-
-                <li>
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-    <!-- MAIN -->
-    <main id="main-content">
-
-
-        <!-- RESUME INTRO -->
-        <section aria-labelledby="resume-heading">
-
-            <p class="text-gray">
-                My professional profile
-            </p>
-
-            <h1 id="resume-heading">
-                Resume
-            </h1>
-
-            <p>
-                Computer Science Engineering student with
-                interests in software development, web
-                technologies, artificial intelligence and
-                full-stack development.
-            </p>
-
-
-            <!-- DOWNLOAD -->
-            <div class="hero-buttons">
-
-                <a href="resume.pdf"
-                   class="button"
-                   download
-                   aria-label="Download Saba Patel's resume PDF">
-                    Download Resume
-                </a>
-
-
-                <!-- OPEN PDF -->
-                <a href="resume.pdf"
-                   class="button secondary-button"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   aria-label="Open Saba Patel's resume in a new tab">
-                    View Resume
-                </a>
-
+            <div class="resume-actions">
+                <a class="button" href="resume.pdf" target="_blank" rel="noopener">View Resume PDF</a>
+                <a class="button secondary" href="resume.pdf" download>Download Resume</a>
             </div>
 
-        </section>
-
-
-        <hr>
-
-
-        <!-- EDUCATION -->
-        <section aria-labelledby="education-heading">
-
-            <h2 id="education-heading">
-                Education
-            </h2>
-
-
-            <article class="experience-card">
-
-                <h3>
-                    Sanjay Ghodawat Institute, Atigre
-                </h3>
-
-                <p>
-                    <strong>
-                        Bachelor of Technology in
-                        Computer Science and Engineering
-                    </strong>
-                </p>
-
-                <p>
-                    2023 – 2027
-                </p>
-
-                <p>
-                    CGPA: 7.92 / 10.0
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- TECHNICAL SKILLS -->
-        <section aria-labelledby="skills-heading">
-
-            <h2 id="skills-heading">
-                Technical Skills
-            </h2>
-
-
-            <div class="project-grid">
-
-
-                <article class="project-card">
-
-                    <h3>
-                        Programming
-                    </h3>
-
-                    <ul>
-
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>SQL</li>
-
-                    </ul>
-
+            <div class="resume-grid">
+                <article class="resume-card">
+                    <h2>Education</h2>
+                    <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                    <p class="resume-meta">Sanjay Ghodawat Institute, Atigre · 2023 – 2027 · CGPA: 7.92/10.0</p>
+                    <p>Building foundations in programming, software development, databases, machine learning and web technologies.</p>
                 </article>
 
-
-                <article class="project-card">
-
-                    <h3>
-                        Web Technologies
-                    </h3>
-
-                    <ul>
-
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>React.js</li>
-                        <li>Tailwind CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-
+                <article class="resume-card">
+                    <h2>Experience</h2>
+                    <h3>Software Development Intern — Thiranex Technologies</h3>
+                    <p class="resume-meta">Remote · Aug 2026 – Present</p>
+                    <ul class="resume-list">
+                        <li>Selected for an internship focused on modern web development technologies.</li>
+                        <li>Participating in technical training covering frontend, backend and full-stack development concepts.</li>
+                        <li>Learning industry-standard workflows, Git version control and collaborative software development.</li>
+                        <li>Building practical projects to strengthen problem-solving and software engineering skills.</li>
                     </ul>
-
                 </article>
 
-
-                <article class="project-card">
-
-                    <h3>
-                        Database
-                    </h3>
-
-                    <ul>
-
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-
+                <article class="resume-card">
+                    <h2>Project</h2>
+                    <h3>NeuroPain Care AI</h3>
+                    <p class="resume-meta">React.js · Node.js · Express.js · MongoDB · Python · Mar 2025 – Apr 2025</p>
+                    <ul class="resume-list">
+                        <li>Developed an AI-powered healthcare application for monitoring pain patterns and emotional well-being.</li>
+                        <li>Designed an interactive body map for logging pain intensity, affected body parts and symptoms.</li>
+                        <li>Built responsive interfaces using React.js, Tailwind CSS and Bootstrap.</li>
+                        <li>Integrated RESTful APIs with MongoDB for user data management.</li>
                     </ul>
-
                 </article>
 
-
-                <article class="project-card">
-
-                    <h3>
-                        Tools
-                    </h3>
-
-                    <ul>
-
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VS Code</li>
-                        <li>Postman</li>
-                        <li>npm</li>
-
+                <article class="resume-card">
+                    <h2>Project</h2>
+                    <h3>Smart Tourist Safety Monitoring & Incident Response System</h3>
+                    <p class="resume-meta">React.js · Node.js · Express.js · MongoDB · MySQL · Google Maps API · 2026</p>
+                    <ul class="resume-list">
+                        <li>Developed an AI-powered tourist safety platform with real-time location tracking and automated SOS alerts.</li>
+                        <li>Integrated Google Maps, live weather updates, AI travel assistance and safe-route recommendations.</li>
+                        <li>Built backend APIs for authentication, incident reporting and data management.</li>
+                        <li>Collaborated with a four-member team using Git and GitHub.</li>
                     </ul>
-
                 </article>
 
-
-                <article class="project-card">
-
-                    <h3>
-                        Core Skills
-                    </h3>
-
-                    <ul>
-
-                        <li>Data Structures</li>
-                        <li>Algorithms</li>
-                        <li>OOP</li>
-                        <li>REST APIs</li>
-
-                    </ul>
-
+                <article class="resume-card">
+                    <h2>Technical Skills</h2>
+                    <div class="resume-skills" aria-label="Technical skills">
+                        <span>Java</span><span>Python</span><span>JavaScript</span><span>C</span><span>C++</span>
+                        <span>SQL</span><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Tailwind CSS</span>
+                        <span>Bootstrap</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>MySQL</span>
+                        <span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span><span>REST APIs</span>
+                    </div>
                 </article>
 
+                <article class="resume-card">
+                    <h2>Professional Development</h2>
+                    <ul class="resume-list">
+                        <li><strong>Java Programming Certification — Disha Computer Institute:</strong> Object-oriented programming, data structures and core Java concepts.</li>
+                        <li><strong>C++ Programming Certification — Disha Computer Institute:</strong> Problem solving, OOP and fundamental algorithms.</li>
+                        <li><strong>Docker & Golang Technologies Workshop — Walchand College of Engineering:</strong> Containerization and backend development concepts.</li>
+                        <li><strong>Hackathon Participant — DKTE College of Engineering:</strong> Team-based software development under a limited time frame.</li>
+                    </ul>
+                </article>
             </div>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- EXPERIENCE -->
-        <section aria-labelledby="experience-heading">
-
-            <h2 id="experience-heading">
-                Experience
-            </h2>
-
-
-            <article class="experience-card">
-
-                <h3>
-                    Software Development Intern
-                </h3>
-
-                <p>
-                    <strong>
-                        Thiranex Technologies
-                    </strong>
-                </p>
-
-                <p>
-                    August 2026 – Present
-                </p>
-
-                <ul>
-
-                    <li>
-                        Selected as a Software Development
-                        Intern to gain hands-on experience
-                        in modern web development technologies.
-                    </li>
-
-                    <li>
-                        Participating in technical training
-                        sessions covering frontend, backend
-                        and full-stack development concepts.
-                    </li>
-
-                    <li>
-                        Learning industry-standard development
-                        workflows, version control using Git
-                        and collaborative software development
-                        practices.
-                    </li>
-
-                    <li>
-                        Building practical projects to
-                        strengthen problem-solving and
-                        software engineering skills.
-                    </li>
-
-                </ul>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- PROJECTS -->
-        <section aria-labelledby="projects-heading">
-
-            <h2 id="projects-heading">
-                Projects
-            </h2>
-
-
-            <article class="project-card">
-
-                <h3>
-                    NeuroPain Care AI
-                </h3>
-
-                <p>
-                    <strong>
-                        React.js, Node.js, Express.js,
-                        MongoDB, Python
-                    </strong>
-                </p>
-
-                <p>
-                    March 2025 – April 2025
-                </p>
-
-                <ul>
-
-                    <li>
-                        Developed an AI-powered healthcare
-                        application for monitoring pain
-                        patterns and emotional well-being.
-                    </li>
-
-                    <li>
-                        Designed an interactive body map
-                        enabling users to log pain intensity,
-                        affected body parts and symptoms.
-                    </li>
-
-                    <li>
-                        Built responsive frontend interfaces
-                        using React.js, Tailwind CSS and
-                        Bootstrap.
-                    </li>
-
-                    <li>
-                        Integrated RESTful APIs with MongoDB
-                        to securely store and manage user
-                        health data.
-                    </li>
-
-                    <li>
-                        Collaborated in a team environment
-                        using Git and GitHub.
-                    </li>
-
-                </ul>
-
-            </article>
-
-
-            <br>
-
-
-            <article class="project-card">
-
-                <h3>
-                    Smart Tourist Safety Monitoring &
-                    Incident Response System
-                </h3>
-
-                <p>
-                    <strong>
-                        React.js, Node.js, Express.js,
-                        MongoDB, MySQL, Google Maps API
-                    </strong>
-                </p>
-
-                <p>
-                    2026
-                </p>
-
-                <ul>
-
-                    <li>
-                        Developed an AI-powered tourist
-                        safety platform featuring real-time
-                        location tracking and automated
-                        SOS alerts.
-                    </li>
-
-                    <li>
-                        Integrated Google Maps API, live
-                        weather updates, AI travel assistance
-                        and safe-route recommendations.
-                    </li>
-
-                    <li>
-                        Built secure backend APIs using
-                        Node.js, Express.js, MongoDB and
-                        MySQL.
-                    </li>
-
-                    <li>
-                        Implemented functionality for user
-                        authentication, incident reporting
-                        and data management.
-                    </li>
-
-                    <li>
-                        Collaborated with a four-member team
-                        using Git and GitHub.
-                    </li>
-
-                </ul>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- PROFESSIONAL DEVELOPMENT -->
-        <section aria-labelledby="development-heading">
-
-            <h2 id="development-heading">
-                Professional Development
-            </h2>
-
-
-            <article class="project-card">
-
-                <h3>
-                    Java Programming Certification
-                </h3>
-
-                <p>
-                    Disha Computer Institute
-                </p>
-
-                <p>
-                    Completed training covering
-                    object-oriented programming,
-                    data structures and core Java concepts.
-                </p>
-
-            </article>
-
-
-            <br>
-
-
-            <article class="project-card">
-
-                <h3>
-                    C++ Programming Certification
-                </h3>
-
-                <p>
-                    Disha Computer Institute
-                </p>
-
-                <p>
-                    Completed hands-on training in C++,
-                    problem-solving, object-oriented
-                    programming and fundamental algorithms.
-                </p>
-
-            </article>
-
-
-            <br>
-
-
-            <article class="project-card">
-
-                <h3>
-                    Docker & Golang Technologies Workshop
-                </h3>
-
-                <p>
-                    Walchand College of Engineering
-                </p>
-
-                <p>
-                    Participated in a technical workshop
-                    focused on Docker containerization and
-                    backend development concepts using Golang.
-                </p>
-
-            </article>
-
-
-            <br>
-
-
-            <article class="project-card">
-
-                <h3>
-                    Hackathon Participant
-                </h3>
-
-                <p>
-                    DKTE College of Engineering
-                </p>
-
-                <p>
-                    Collaborated with a team to design and
-                    develop an innovative software solution
-                    within a limited time.
-                </p>
-
-            </article>
-
-        </section>
-
-
-        <hr>
-
-
-        <!-- CONTACT CTA -->
-        <section class="cta"
-                 aria-labelledby="contact-heading">
-
-            <h2 id="contact-heading">
-                Interested in Working Together?
-            </h2>
-
-            <p>
-                Feel free to get in touch with me.
-            </p>
-
-            <a href="contact.html"
-               class="button">
-                Contact Me
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <p>
-            &copy; 2026 Saba Patel.
-            All rights reserved.
-        </p>
-
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 Saba Patel. All rights reserved.</p>
         <nav aria-label="Footer navigation">
-
-            <a href="index.html">
-                Home
-            </a>
-
-            <a href="about.html">
-                About
-            </a>
-
-            <a href="projects.html">
-                Projects
-            </a>
-
-            <a href="contact.html">
-                Contact
-            </a>
-
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-
-    </footer>
-
+    </div>
+</footer>
 </body>
-
 </html>
